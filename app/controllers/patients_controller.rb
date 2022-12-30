@@ -4,7 +4,6 @@ class PatientsController <  UsersController
   end
 
   private
-
   def user_params
     params.permit(:name, :password, :date_of_birth)
   end
